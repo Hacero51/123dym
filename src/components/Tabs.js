@@ -67,6 +67,8 @@ import Qbano from "../imagen/alianzas/qbano.jpg";
 import Bodega from "../imagen/alianzas/bodegachef.jpg"
 import Donjulioparilla from "../imagen/alianzas/donjulioparilla.jpg";
 import Piqueteaderosanluis from "../imagen/alianzas/piqueteaderosanluis.jpg"
+import CasaRose from "../imagen/alianzas/casarose.jpg"
+import Delik from "../imagen/alianzas/Delik.jpg"
 
 //menu
 import pizzanapoli1 from "../imagen/menus/pizzanapoli1.jpg";
@@ -97,7 +99,14 @@ import king1 from "../imagen/menus/king1.jpg";
 import king2 from "../imagen/menus/king2.jpg";
 import bodegachef from "../imagen/menus/bodega.jpg"
 import donjulioparrilla1 from "../imagen/menus/donjulioparrilla.jpg";
-import bodegachef2 from "../imagen/menus/bodega.jpg"
+import Delik2 from "../imagen/menus/delik1.jpg";
+import Delik3 from "../imagen/menus/delik2.jpg";
+import Delik4 from "../imagen/menus/delik3.jpg";
+import Delik5 from "../imagen/menus/delik4.jpg";
+import Delik6 from "../imagen/menus/delik5.jpg";
+import Delik7 from "../imagen/menus/delik6.jpg";
+import Delik8 from "../imagen/menus/delik7.jpg";
+import Delik9 from "../imagen/menus/delik8.jpg";
 
 //Licores
 import Licoresmao1 from "../imagen/licores/licoresmao.jpg"
@@ -113,6 +122,64 @@ import Licoresmao10 from "../imagen/licores/licoresmao10.jpg"
 import Licoresmao11 from "../imagen/licores/licoresmao11.jpg"
 import Licoresmao12 from "../imagen/licores/licoresmao12.jpg"
 import Licoresmao13 from "../imagen/licores/licoresmao13.jpg"
+
+//Muestras y Lugares
+import donjulioparrilla2 from "../imagen/muestras/donjulio1.jpg"
+import donjulioparrilla3 from "../imagen/muestras/donjulio2.jpg"
+import donjulioparrilla4 from "../imagen/muestras/donjulio3.jpg"
+import donjulioparrilla5 from "../imagen/muestras/donjulio4.jpg"
+import donjulioparrilla6 from "../imagen/muestras/donjulio5.jpg"
+import king3 from "../imagen/muestras/king.jpg"
+import king4 from "../imagen/muestras/king2.jpg"
+import maderos2 from "../imagen/muestras/maderos1.jpg"
+import maderos3 from "../imagen/muestras/maderos2.jpg"
+import mimegon1 from "../imagen/muestras/merengon1.jpg"
+import mimegon2 from "../imagen/muestras/merengon2.jpg"
+import mimegon3 from "../imagen/muestras/merengon3.jpg"
+import mimegon4 from "../imagen/muestras/merengon4.jpg"
+import mimegon5 from "../imagen/muestras/merengon5.jpg"
+import mimegon6 from "../imagen/muestras/merengon6.jpg"
+import Ppaisa2 from "../imagen/muestras/ppaisa.jpg"
+import Piqueteaderosanluis2 from "../imagen/muestras/psanluis.jpg"
+import rakamandaka3 from "../imagen/muestras/rakamandaka.jpg"
+import Salome1 from "../imagen/muestras/salome.jpg"
+import supercono6 from "../imagen/muestras/supercono.jpg"
+import superh4 from "../imagen/muestras/superh1.jpg"
+import superh5 from "../imagen/muestras/superh3.jpg"
+import superh6 from "../imagen/muestras/superh3.jpg"
+import superh7 from "../imagen/muestras/superh4.jpg"
+import superh8 from "../imagen/muestras/superh5.jpg"
+import superh9 from "../imagen/muestras/superh6.jpg"
+import superh10 from "../imagen/muestras/superh7.jpg"
+import superh11 from "../imagen/muestras/superh8.jpg"
+import superh12 from "../imagen/muestras/superh9.jpg"
+import superh13 from "../imagen/muestras/superh10.jpg"
+import superh14 from "../imagen/muestras/superh11.jpg"
+import superh15 from "../imagen/muestras/superh12.jpg"
+import superh16 from "../imagen/muestras/superh13.jpg"
+import superh17 from "../imagen/muestras/superh14.jpg"
+import superh18 from "../imagen/muestras/superh15.jpg"
+import superh19 from "../imagen/muestras/superh16.jpg"
+import toscana3 from "../imagen/muestras/toscana1.jpg"
+import toscana4 from "../imagen/muestras/toscana2.jpg"
+import CasaRose1 from "../imagen/muestras/casarose.mp4"
+import CasaRose2 from "../imagen/muestras/casarose1.mp4"
+import CasaRose3 from "../imagen/muestras/casarose2.jpg"
+import CasaRose4 from "../imagen/muestras/casarose3.jpg"
+import CasaRose5 from "../imagen/muestras/casarose4.jpg"
+import CasaRose6 from "../imagen/muestras/casarose5.jpg"
+import CasaRose7 from "../imagen/muestras/casarose6.jpg"
+import CasaRose8 from "../imagen/muestras/casarose7.jpg"
+import CasaRose9 from "../imagen/muestras/casarose8.jpg"
+import CasaRose10 from "../imagen/muestras/casarose9.jpg"
+import CasaRose11 from "../imagen/muestras/casarose10.jpg"
+import CasaRose12 from "../imagen/muestras/casarose11.jpg"
+import CasaRose13 from "../imagen/muestras/casarose12.jpg"
+
+
+
+
+
 
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -185,6 +252,11 @@ export default function ScrollableTabsButtonForce() {
   const [bodega, setBodega] = useState(false);
   const [djuliop, setDjuliop] = useState(false);
   const [lmao, setLmao] = useState(false);
+  const [pueblopaisa, setPueblopaisa] = useState(false);
+  const [psanluis, setPsanluis] = useState(false);
+  const [slome, setSlome] = useState(false);
+  const [crose, setCrose] = useState(false);
+  const [dlk, setDlk] = useState(false);
 
 
   const abricerrarpnapoli = () => {
@@ -235,7 +307,24 @@ export default function ScrollableTabsButtonForce() {
     setLmao(!lmao);
   }
 
+  const abricerrarppaisa = () => {
+    setPueblopaisa(!pueblopaisa);
+  }
+  const abricerrarpsanluis = () => {
+    setPsanluis(!psanluis);
+  }
 
+  const abricerrarsalome = () => {
+    setSlome(!slome);
+  }
+
+  const abricerrarcasarose = () => {
+    setCrose(!crose);
+  }
+
+  const abricerrardelik = () => {
+    setDlk(!dlk);
+  }
   //Modales
   const napoli = (
     <div className={classes.modal}>
@@ -279,6 +368,22 @@ export default function ScrollableTabsButtonForce() {
             width="470px"
           />
         </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="d-block w-100"
+            src={toscana3}
+            height="470px"
+            width="470px"
+          />
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="d-block w-100"
+            src={toscana4}
+            height="470px"
+            width="470px"
+          />
+        </Carousel.Item>
       </Carousel>
     </div>
   )
@@ -310,6 +415,133 @@ export default function ScrollableTabsButtonForce() {
             width="470px"
           />
         </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="d-block w-100"
+            src={superh4}
+            height="470px"
+            width="470px"
+          />
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="d-block w-100"
+            src={superh5}
+            height="470px"
+            width="470px"
+          />
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="d-block w-100"
+            src={superh6}
+            height="470px"
+            width="470px"
+          />
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="d-block w-100"
+            src={superh7}
+            height="470px"
+            width="470px"
+          />
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="d-block w-100"
+            src={superh8}
+            height="470px"
+            width="470px"
+          />
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="d-block w-100"
+            src={superh9}
+            height="470px"
+            width="470px"
+          />
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="d-block w-100"
+            src={superh10}
+            height="470px"
+            width="470px"
+          />
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="d-block w-100"
+            src={superh11}
+            height="470px"
+            width="470px"
+          />
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="d-block w-100"
+            src={superh12}
+            height="470px"
+            width="470px"
+          />
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="d-block w-100"
+            src={superh13}
+            height="470px"
+            width="470px"
+          />
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="d-block w-100"
+            src={superh14}
+            height="470px"
+            width="470px"
+          />
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="d-block w-100"
+            src={superh15}
+            height="470px"
+            width="470px"
+          />
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="d-block w-100"
+            src={superh16}
+            height="470px"
+            width="470px"
+          />
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="d-block w-100"
+            src={superh17}
+            height="470px"
+            width="470px"
+          />
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="d-block w-100"
+            src={superh18}
+            height="470px"
+            width="470px"
+          />
+        </Carousel.Item>        <Carousel.Item>
+          <img
+            className="d-block w-100"
+            src={superh19}
+            height="470px"
+            width="470px"
+          />
+        </Carousel.Item>
       </Carousel>
     </div>
   )
@@ -321,6 +553,54 @@ export default function ScrollableTabsButtonForce() {
           <img
             className="d-block w-100"
             src={mimegon}
+            height="470px"
+            width="470px"
+          />
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="d-block w-100"
+            src={mimegon1}
+            height="470px"
+            width="470px"
+          />
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="d-block w-100"
+            src={mimegon2}
+            height="470px"
+            width="470px"
+          />
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="d-block w-100"
+            src={mimegon3}
+            height="470px"
+            width="470px"
+          />
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="d-block w-100"
+            src={mimegon4}
+            height="470px"
+            width="470px"
+          />
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="d-block w-100"
+            src={mimegon5}
+            height="470px"
+            width="470px"
+          />
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="d-block w-100"
+            src={mimegon6}
             height="470px"
             width="470px"
           />
@@ -411,6 +691,22 @@ export default function ScrollableTabsButtonForce() {
             width="470px"
           />
         </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="d-block w-100"
+            src={maderos2}
+            height="470px"
+            width="470px"
+          />
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="d-block w-100"
+            src={maderos3}
+            height="470px"
+            width="470px"
+          />
+        </Carousel.Item>
       </Carousel>
     </div>
   )
@@ -430,6 +726,14 @@ export default function ScrollableTabsButtonForce() {
           <img
             className="d-block w-100"
             src={rakamandaka2}
+            height="470px"
+            width="470px"
+          />
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="d-block w-100"
+            src={rakamandaka3}
             height="470px"
             width="470px"
           />
@@ -481,6 +785,14 @@ export default function ScrollableTabsButtonForce() {
             width="470px"
           />
         </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="d-block w-100"
+            src={supercono6}
+            height="470px"
+            width="470px"
+          />
+        </Carousel.Item>
       </Carousel>
     </div>
   )
@@ -500,6 +812,22 @@ export default function ScrollableTabsButtonForce() {
           <img
             className="d-block w-100"
             src={king2}
+            height="470px"
+            width="470px"
+          />
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="d-block w-100"
+            src={king3}
+            height="470px"
+            width="470px"
+          />
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="d-block w-100"
+            src={king4}
             height="470px"
             width="470px"
           />
@@ -641,6 +969,273 @@ export default function ScrollableTabsButtonForce() {
           <img
             className="d-block w-100"
             src={donjulioparrilla1}
+            height="470px"
+            width="470px"
+          />
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="d-block w-100"
+            src={donjulioparrilla2}
+            height="470px"
+            width="470px"
+          />
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="d-block w-100"
+            src={donjulioparrilla3}
+            height="470px"
+            width="470px"
+          />
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="d-block w-100"
+            src={donjulioparrilla4}
+            height="470px"
+            width="470px"
+          />
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="d-block w-100"
+            src={donjulioparrilla5}
+            height="470px"
+            width="470px"
+          />
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="d-block w-100"
+            src={donjulioparrilla6}
+            height="470px"
+            width="470px"
+          />
+        </Carousel.Item>
+      </Carousel>
+    </div>
+  )
+
+  const Puepaisa = (
+    <div className={classes.modal}>
+      <Carousel>
+        <Carousel.Item>
+          <img
+            className="d-block w-100"
+            src={Ppaisa2}
+            height="470px"
+            width="470px"
+          />
+        </Carousel.Item>
+      </Carousel>
+    </div>
+  )
+
+  const Parrisanluis = (
+    <div className={classes.modal}>
+      <Carousel>
+        <Carousel.Item>
+          <img
+            className="d-block w-100"
+            src={Piqueteaderosanluis2}
+            height="470px"
+            width="470px"
+          />
+        </Carousel.Item>
+      </Carousel>
+    </div>
+  )
+
+  const slme = (
+    <div className={classes.modal}>
+      <Carousel>
+        <Carousel.Item>
+          <img
+            className="d-block w-100"
+            src={Salome1}
+            height="470px"
+            width="470px"
+          />
+        </Carousel.Item>
+      </Carousel>
+    </div>
+  )
+
+  const Delk = (
+    <div className={classes.modal}>
+      <Carousel>
+        <Carousel.Item>
+          <img
+            className="d-block w-100"
+            src={Delik2}
+            height="470px"
+            width="470px"
+          />
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="d-block w-100"
+            src={Delik3}
+            height="470px"
+            width="470px"
+          />
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="d-block w-100"
+            src={Delik4}
+            height="470px"
+            width="470px"
+          />
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="d-block w-100"
+            src={Delik5}
+            height="470px"
+            width="470px"
+          />
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="d-block w-100"
+            src={Delik6}
+            height="470px"
+            width="470px"
+          />
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="d-block w-100"
+            src={Delik7}
+            height="470px"
+            width="470px"
+          />
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="d-block w-100"
+            src={Delik8}
+            height="470px"
+            width="470px"
+          />
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="d-block w-100"
+            src={Delik9}
+            height="470px"
+            width="470px"
+          />
+        </Carousel.Item>
+      </Carousel>
+    </div>
+  )
+
+  const casar = (
+    <div className={classes.modal}>
+      <Carousel>
+        <Carousel.Item>
+          <video
+            className="d-block w-100"
+            src={CasaRose1}
+            height="470px"
+            width="470px"
+          ></video>
+        </Carousel.Item>
+        <Carousel.Item>
+          <video
+            className="d-block w-100"
+            src={CasaRose2}
+            height="470px"
+            width="470px"
+          ></video>
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="d-block w-100"
+            src={CasaRose3}
+            height="470px"
+            width="470px"
+          />
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="d-block w-100"
+            src={CasaRose4}
+            height="470px"
+            width="470px"
+          />
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="d-block w-100"
+            src={CasaRose5}
+            height="470px"
+            width="470px"
+          />
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="d-block w-100"
+            src={CasaRose6}
+            height="470px"
+            width="470px"
+          />
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="d-block w-100"
+            src={CasaRose7}
+            height="470px"
+            width="470px"
+          />
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="d-block w-100"
+            src={CasaRose8}
+            height="470px"
+            width="470px"
+          />
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="d-block w-100"
+            src={CasaRose9}
+            height="470px"
+            width="470px"
+          />
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="d-block w-100"
+            src={CasaRose10}
+            height="470px"
+            width="470px"
+          />
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="d-block w-100"
+            src={CasaRose11}
+            height="470px"
+            width="470px"
+          />
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="d-block w-100"
+            src={CasaRose12}
+            height="470px"
+            width="470px"
+          />
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="d-block w-100"
+            src={CasaRose13}
             height="470px"
             width="470px"
           />
@@ -873,7 +1468,7 @@ export default function ScrollableTabsButtonForce() {
             </div>
             <br />
             <div className="row">
-            <div className="col-md-3">
+              <div className="col-md-3">
                 <img
                   src={Burgerk}
                   height="225px"
@@ -906,12 +1501,52 @@ export default function ScrollableTabsButtonForce() {
                   height="225px"
                   width="225px"
                   className='imgRedonda'
+                  onClick={() => abricerrarpsanluis()}
                 />
               </div>
             </div>
             <br />
             <div className="row">
-            <div className="col-md-3">
+              <div className="col-md-3">
+                <img
+                  src={Salome}
+                  height="225px"
+                  width="225px"
+                  className='imgRedonda'
+                  onClick={() => abricerrarsalome()}
+                />
+              </div>
+              <div className="col-md-3">
+                <img
+                  src={Ppaisa}
+                  height="225px"
+                  width="225px"
+                  className='imgRedonda'
+                  onClick={() => abricerrarppaisa()}
+                />
+              </div>
+              <div className="col-md-3">
+                <img
+                  src={CasaRose}
+                  height="225px"
+                  width="225px"
+                  className='imgRedonda'
+                  onClick={() => abricerrarcasarose()}
+                />
+              </div>
+              <div className="col-md-3">
+                <img
+                  src={Delik}
+                  height="225px"
+                  width="225px"
+                  className='imgRedonda'
+                  onClick={() => abricerrardelik()}
+                />
+              </div>
+            </div>
+            <br />
+            <div className="row">
+              <div className="col-md-3">
                 <img
                   src={Qbano}
                   height="225px"
@@ -927,22 +1562,7 @@ export default function ScrollableTabsButtonForce() {
                   className='imgRedonda'
                 />
               </div>
-            <div className="col-md-3">
-                <img
-                  src={Salome}
-                  height="225px"
-                  width="225px"
-                  className='imgRedonda'
-                />
-              </div>
-            <div className="col-md-3">
-                <img
-                  src={Ppaisa}
-                  height="225px"
-                  width="225px"
-                  className='imgRedonda'
-                />
-              </div>
+
             </div>
           </div>
         </TabPanel>
@@ -1163,7 +1783,7 @@ export default function ScrollableTabsButtonForce() {
         {rakamandaka}
       </Modal>
 
-      
+
       <Modal
         open={scono}
         onClose={abricerrarscono}
@@ -1197,6 +1817,36 @@ export default function ScrollableTabsButtonForce() {
         onClose={abricerrarlmao}
       >
         {LicoresMao}
+      </Modal>
+      <Modal
+        open={pueblopaisa}
+        onClose={abricerrarppaisa}
+      >
+        {Puepaisa}
+      </Modal>
+      <Modal
+        open={psanluis}
+        onClose={abricerrarpsanluis}
+      >
+        {Parrisanluis}
+      </Modal>
+      <Modal
+        open={slome}
+        onClose={abricerrarsalome}
+      >
+        {slme}
+      </Modal>
+      <Modal
+        open={crose}
+        onClose={abricerrarcasarose}
+      >
+        {casar}
+      </Modal>
+      <Modal
+        open={dlk}
+        onClose={abricerrardelik}
+      >
+        {Delk}
       </Modal>
     </>
   );
